@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="assets" status="experimental" xmlns="http://getsymphony.com/schemas/extension/1.0">
+    <name>Assets</name>
+    <description>Asset builder.</description>
+    <repo type="github">https://github.com/jensscherbl/assets</repo>
+    <types>
+        <type>Workflow</type>
+    </types>
+    <authors>
+        <author>
+            <name github="jensscherbl" symphony="jensscherbl">Jens Scherbl</name>
+        </author>
+    </authors>
+    <releases>
+        <release version="0.1.0" date="2014-10-27" min="2.5.x" max="2.x.x"/>
+    </releases>
+</extension>
