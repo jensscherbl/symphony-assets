@@ -157,7 +157,7 @@ class Extension_Assets extends Extension
 
         foreach ($tasks as $task) {
 
-            $command = $command . ' | ' . escapeshellarg($task);
+            $command = $command . ' | ' . escapeshellcmd($task);
         }
 
         // bundle file
