@@ -2,7 +2,7 @@
 
 Asset builder for [Symphony][1].
 
-Rebuilds and stores assets on page request if something has changed.
+Builds assets on page request.
 
 This extension uses [Composer][5] for autoloading.
 
