@@ -4,9 +4,9 @@ use Symphony\Extensions\Assets\Builder;
 
 class Extension_Assets extends Extension
 {
-    private $configPath = '../workspace/assets.php';
-    private $sourcePath = '../workspace/assets';
-    private $targetPath = '../public/assets';
+    private $configPath = WORKSPACE . '/assets.php';
+    private $sourcePath = WORKSPACE . '/assets';
+    private $targetPath = WORKSPACE . '/assets';
 
     // delegates
 
