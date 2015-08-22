@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension id="assets" status="experimental" xmlns="http://getsymphony.com/schemas/extension/1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<extension id="assets" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
     <name>Assets</name>
     <description>Asset builder.</description>
-    <repo type="github">https://github.com/jensscherbl/assets</repo>
+    <repo type="github">http://github.com/jensscherbl/symphony-assets</repo>
     <types>
         <type>Workflow</type>
     </types>
@@ -12,6 +12,7 @@
         </author>
     </authors>
     <releases>
+        <release version="1.0.0" date="2015-08-22" min="2.5.x" max="2.x.x"/>
         <release version="0.1.1" date="2014-12-13" min="2.5.x" max="2.x.x"/>
         <release version="0.1.0" date="2014-10-27" min="2.5.x" max="2.x.x"/>
     </releases>
